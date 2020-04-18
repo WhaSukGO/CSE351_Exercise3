@@ -68,10 +68,16 @@ Use conditions to update specific attributes in a row. If any missing value is f
 ![Regression Models](/assets/Regression_models.png)
 
 1) Polynomial Regression Learner (max degree of 3)
-
+	Polynomial Regression Learner is a form of linear regression in which the relationship between the input variables x and the output variable y is modeled as a polynomial. Although polynomial regression fits a nonlinear model to the data, as a statistical estimation problem it is linear, in the sense that the regression function is linear in the unknown parameters that are estimated from the data. For this reason, polynomial regression is considered to be a special case of linear regression.polynomial regression equation is y= b0 + b1x + b2x^2+… it helps to minimize the squared error of the coeffient b attached to the front It minimize the distance between points and lines. Input ports type is data, output ports tpyes are PMML and data. 
+	
 2) Linear Regression Learner
+	Learns a single regression tree. The procedure follows the algorithm described by "Classification and Regression Trees" 
+In the Perform Multivariate Linear Regression dialog box, select the destination column (the combo box at the top), that is, the response. It only include specific columns that represent (independent) variables using two lists in the center of the dialog box.
+The Options are Target, values, Predefined Offset, Value, Missing Values in Input Data, Scatter Plot View.
 
 3) Simple Regression Tree Learner
+	The treatment of missing values currently used is also different from the value used. In each division, the algorithm tries to find the best direction for missing values by transferring values in each direction and choosing the value that yields the best results (i.e., the greatest gain). Learns a single regression tree. The procedure follows the algorithm described by "Classification and Regression Trees" Attribute Selection Options are Target Column, Trribute selection, Ignore columns without domain information, Enable Hightlighting , Missing value hnding, Limit number of levels, Minium split node size, minimum node size 
+Inpute ports type is Data (Simple Regression Tree predictor) Output ports type is regression tree  (Simple Regression Tree Predictor)
 
 ## Test Results (Accuracy)
 
