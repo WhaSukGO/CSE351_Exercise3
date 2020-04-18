@@ -11,7 +11,7 @@ In this exercise, you will solve a data challenge as a group project using the f
 ## Contributor
 - Wha Suk Lee
 - Haein Park
-- P.K.
+- Pyungkang Hong
 ## Tools
 - KNIME 4.1.0
 ## Data
