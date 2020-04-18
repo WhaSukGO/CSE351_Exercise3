@@ -29,7 +29,6 @@ In this exercise, you will solve a data challenge as a group project using the f
 |Product_Category_2|Product may belongs to other category also (Masked)
 |Product_Category_3|Product may belongs to other category also (Masked)
 |Purchase|Purchase Amount (Target Variable)
--------------
 
 ## Preprocessing
 There are some missing values found in columns,
@@ -73,6 +72,26 @@ Use conditions to update specific attributes in a row. If any missing value is f
 2) Linear Regression Learner
 
 3) Simple Regression Tree Learner
+
+## Test Results (Accuracy)
+
+The lower the result, the more accurate the model is!
+
+PR: Polynomial Regression<br/>
+LR: Linear Regression<br/>
+RT: Regression Tree
+
+### Column-Removed Training Data
+
+Test 1-PR_CE: 4258.26486987406<br/>
+Test 2-LR_CE: 4711.838698231092<br/>
+Test 3-RT_CE: 3044.0250955813617
+
+### Missing Value Replaced Data
+
+Test 4-PR_MV: 4244.682192134847<br/>
+Test 5-LR_MV: 4591.672720036235<br/>
+Test 6-RT_MV: 3270.7834458726347
 
 ## Links
 `<URL>` : <https://datahack.analyticsvidhya.com/contest/black-friday/#ProblemStatement><br/>
